@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <div>-----------------</div>
+    点击正常
     <checkbox v-model="value"></checkbox>
   </div>
 </template>
@@ -12,8 +13,7 @@ export default {
   components: { Checkbox },
   data() {
     return {
-      value: true,
-      msg: 'Welcome to Your Vue.js App'
+      value: true
     }
   }
 }

@@ -3,7 +3,7 @@ import Checkbox from './components/checkbox.vue'
 
 new Vue({
   el: '#app',
-  template: '<checkbox v-model="value"/>',
+  template: '<div>点击报错<checkbox v-model="value"/></div>',
   data() {
     return {
       value: true
